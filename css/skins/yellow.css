@@ -1,0 +1,14 @@
+.aside .logo a::before{
+	border-top: 4px solid #ffb400;
+	border-left: 4px solid #ffb400;
+}
+.aside .logo a::after{
+	border-bottom:  4px solid #ffb400;
+	border-right: 4px solid #ffb400;
+}
+.aside .nav li a:hover,
+.aside .nav li a.active{
+	color: #ffb400;
+}
+.home .intro .social-link a{
+	background-color: #ffb400

@@ -4,3 +4,36 @@
  /*Google fonts*/
  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
  @import url('https://fonts.googleapis.com/css?family=Rubik:500,700,900&display=swap');
+
+.body{
+	margin: 0px;
+	line-height: 1.5;
+}
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+::before,::after{
+	box-sizing: border-box;
+}
+/*aside*/
+.aside{
+	width: 270px;
+	background-color: #302e4d ;
+	position: fixed;
+	height: 100%;
+}
+/*section*/
+.section{
+	background-color: #f2f2fc ;
+	min-height: 100vh;
+	display: block;
+}
+/*main content*/
+.main-content{
+	padding-left:270px; 
+}
+/*home*/

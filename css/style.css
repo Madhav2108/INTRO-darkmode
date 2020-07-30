@@ -149,3 +149,24 @@ box-shadow:0 0 20px rgba (48,46,77,0.15);
 	line-height: 22px;
 	color: #504e70;
 }
+.home .intro .social-link{
+	margin-top: 25px;
+
+}
+.home .intro .social-link a{
+	height: 35px;
+	width:35px;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	color: #ffffff;
+	margin: 0 4px;
+	border-radius: 50%;
+	text-decoration: none;
+	-webkit-transition:all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.home .intro .social-link a:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}

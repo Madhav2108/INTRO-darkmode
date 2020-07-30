@@ -12,3 +12,6 @@
 .aside .nav li a.active{
 	color: #ec1839;
 }
+.home .intro .social-link a{
+	background-color: #ec1839;
+}

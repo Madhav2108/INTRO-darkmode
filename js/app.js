@@ -14,3 +14,7 @@
  	}
  	
  }
+
+ document.querySelector(".t-s-s").addEventListener("click",()=>{
+ 	document.querySelector(".sty-swi").classList.toggle("open");
+ })

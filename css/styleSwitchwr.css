@@ -8,6 +8,15 @@
 	padding: 15px;
 	border:1px solid #d4d4e3;
 	border-right: none;
+	border-radius: 0 0 0 5px;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+	-webkit-transition:all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.sty-swi.open{
+	-webkit-transform: translateX(0%);
+	transform: translateX(0%);
 }
 .sty-swi h5{
 	font-size: 16px;
@@ -34,4 +43,22 @@
 	text-decoration: none;
 	margin-right: 2px;
 
+}
+.sty-swi .t-s-s{
+	position: absolute;
+	height: 45px;
+	width:45px;
+	background-color:#ffffff;
+	left: -46px;
+	top:-1px;
+	border:1px solid #d4d4e3;
+	border-right: none;
+	text-align: center;
+	cursor: pointer;
+	border-radius:50% 0 0 50%;
+
+}
+.sty-swi .t-s-s .fa{
+		font-size: 20px;
+		line-height: 43px;
 }

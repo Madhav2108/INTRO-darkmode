@@ -11,7 +11,9 @@ body.dark .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
 .aside .nav li a.active,
 body.dark .sty-swi .t-s-s .fa,
-.sty-swi .t-s-s .fa{
+.sty-swi .t-s-s .fa,
+.sty-swi .t-s-s-dow a .fa,
+body.dark .sty-swi .t-s-s-dow a .fa{
 	color: #72b626;
 }
 .home .intro .social-link a{

@@ -15,7 +15,8 @@
 	transition: all 0.3s ease;
 }
 body.dark .sty-swi,
-body.dark .sty-swi .t-s-s{
+body.dark .sty-swi .t-s-s,
+body.dark .sty-swi .t-s-s-dow{
 	background-color: #222222;
 }
 body.dark .sty-swi h5
@@ -25,7 +26,8 @@ body.dark .sty-swi h5
 }
 body.dark .sty-swi .t-s-s,
 body.dark  .sty-swi,
-body.dark .sty-swi .t-s-s .fa{
+body.dark .sty-swi .t-s-s .fa,
+body.dark .sty-swi .t-s-s-dow{
 	border-color: #393939;
 }
 body.dark .sty-swi label{
@@ -61,6 +63,12 @@ body.dark .sty-swi label{
 	margin-right: 2px;
 
 }
+.sty-swi label input{
+	padding-bottom: 5px;
+}
+.down{
+	border-top:1px dotted ;
+}
 .sty-swi .t-s-s{
 	position: absolute;
 	height: 45px;
@@ -77,5 +85,23 @@ body.dark .sty-swi label{
 }
 .sty-swi .t-s-s .fa{
 		font-size: 20px;
+		line-height: 43px;
+}
+.sty-swi .t-s-s-dow{
+	position: absolute;
+	height: 45px;
+	width:45px;
+	background-color:#ffffff;
+	left: -46px;
+	bottom: 0;
+	border:1px solid #d4d4e3;
+	border-right: none;
+	text-align: center;
+	cursor: pointer;
+	border-radius:50% 0 0 50%;
+
+}
+.sty-swi .t-s-s-dow a .fa{
+	font-size: 20px;
 		line-height: 43px;
 }

@@ -10,7 +10,10 @@ body.dark .aside .nav li a:hover,
 .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
 .aside .nav li a.active,
-.sty-swi .t-s-s .fa{
+body.dark .sty-swi .t-s-s .fa,
+.sty-swi .t-s-s .fa,
+.sty-swi .t-s-s-dow a .fa,
+body.dark .sty-swi .t-s-s-dow a .fa{
 	color: #ffb400;
 }
 .home .intro .social-link a{

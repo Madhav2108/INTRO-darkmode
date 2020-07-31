@@ -14,6 +14,23 @@
 	-webkit-transition:all 0.3s ease;
 	transition: all 0.3s ease;
 }
+body.dark .sty-swi,
+body.dark .sty-swi .t-s-s{
+	background-color: #222222;
+}
+body.dark .sty-swi h5
+{
+	color: #ffffff;
+	border-color: #393939;
+}
+body.dark .sty-swi .t-s-s,
+body.dark  .sty-swi,
+body.dark .sty-swi .t-s-s .fa{
+	border-color: #393939;
+}
+body.dark .sty-swi label{
+	color: #ffffff;
+}
 .sty-swi.open{
 	-webkit-transform: translateX(0%);
 	transform: translateX(0%);

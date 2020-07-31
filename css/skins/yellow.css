@@ -6,8 +6,11 @@
 	border-bottom:  4px solid #ffb400;
 	border-right: 4px solid #ffb400;
 }
+body.dark .aside .nav li a:hover,
 .aside .nav li a:hover,
-.aside .nav li a.active{
+body.dark .aside .nav li a.active,
+.aside .nav li a.active,
+.sty-swi .t-s-s .fa{
 	color: #ffb400;
 }
 .home .intro .social-link a{
